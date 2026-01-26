@@ -33,7 +33,7 @@
 </div>
 
 <div class="modal fade" id="bib-{{ key | replace: ':', '-' }}" tabindex="-1">
-  <div class="modal-dialog modal-lg">
+  <div class="modal-dialog" style="max-width: 90vw;">
     <div class="modal-content">
       <div class="modal-header">
         <h5>BibTeX</h5>
@@ -48,7 +48,7 @@
 
 {% if entry.abstract %}
 <div class="modal fade" id="abs-{{ key | replace: ':', '-' }}" tabindex="-1">
-  <div class="modal-dialog modal-lg">
+  <div class="modal-dialog" style="max-width: 90vw;">
     <div class="modal-content">
       <div class="modal-header">
         <h5>Abstract</h5>
