@@ -1,7 +1,7 @@
 John Smith:
   name        : "Robert Reed"
   bio         : "Safe Autonomy | Machine Learning | Formal Mehods"
-  avatar      : "/assets/images/profile.jpg"
+  # avatar      : "/assets/images/profile.jpg"
   location    : "USA"
   links:
     - label: "GitHub"
