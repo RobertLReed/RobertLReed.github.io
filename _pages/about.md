@@ -14,7 +14,7 @@ My research in this group focuses on how to use machine learning techniques to i
 
 ## <a id="publications"></a>Publications
 
-{% bibliography %}
+TODO
 
 ---
 
