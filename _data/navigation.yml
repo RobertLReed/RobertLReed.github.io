@@ -1,4 +1,10 @@
-## <a id="about"></a>About
-## <a id="publications"></a>Publications
-## <a id="cv"></a>CV
-## <a id="contact"></a>Contact
+main:
+  - title: "About"
+    url: /#about
+  - title: "Publications"
+    url: /#publications
+  - title: "CV"
+    url: /#cv
+  - title: "Contact"
+    url: /#contact
+
