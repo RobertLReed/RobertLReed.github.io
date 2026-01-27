@@ -60,7 +60,7 @@ You can find a copy of my CV [here](https://drive.google.com/file/d/1hvsAYbLBR6O
 
     <div class="contact-content">
       <a class="contact-button"
-         href="https://www.google.com/maps/search/?api=1&query=Department+of+Computer+Science+University+of+Somewhere"
+         href="https://www.google.com/maps/search/?api=1&query=Ann+%26+H.J.+Smead+Department+of+Aerospace+Engineering+Sciences"
          target="_blank">
         Mailing Address
       </a>
