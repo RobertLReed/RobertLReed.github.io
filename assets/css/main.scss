@@ -52,3 +52,48 @@ search: false
   background: none;
   cursor: pointer;
 }
+
+/* ===== Contact Section ===== */
+
+.contact-section {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.contact-icon {
+  margin-right: 1rem;
+  color: #555;
+  flex-shrink: 0;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-button {
+  display: inline-block;
+  margin-bottom: 0.4rem;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  width: fit-content;
+}
+
+.contact-button:hover {
+  background-color: #f2f2f2;
+}
+
+.contact-text {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
