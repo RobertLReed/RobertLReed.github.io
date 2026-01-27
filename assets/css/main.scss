@@ -9,10 +9,19 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
-/* Larger author avatar */
+/* Larger author avatar (desktop) */
 .author__avatar img {
   max-width: 190px;   /* default is ~110px */
   border-radius: 50%;
+}
+
+/* Author avatar sizing (mobile) */
+@media (max-width: 768px) {
+  .author__avatar img {
+    max-width: 140px;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 
