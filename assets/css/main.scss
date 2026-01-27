@@ -7,3 +7,48 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* ===== Overlay system for Abstract & BibTeX ===== */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  z-index: 2000;
+}
+
+.overlay-box {
+  position: relative;
+  background: #fff;
+  width: 85%;
+  max-width: 1000px;
+  max-height: 85vh;
+  margin: 5vh auto;
+  padding: 1.5rem 2rem;
+  overflow-y: auto;
+  border-radius: 8px;
+}
+
+.overlay-content {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.overlay-content pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.overlay-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 2rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
