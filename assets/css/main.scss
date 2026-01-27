@@ -8,6 +8,14 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+
+/* Larger author avatar */
+.author__avatar img {
+  max-width: 190px;   /* default is ~110px */
+  border-radius: 50%;
+}
+
+
 /* ===== Overlay system for Abstract & BibTeX ===== */
 
 .overlay {
