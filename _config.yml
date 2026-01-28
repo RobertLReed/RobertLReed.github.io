@@ -275,8 +275,6 @@ scholar:
   bibliography_template: bib
   sort_by: year,month
   order: descending
-  group_by: year
-  group_order: descending
 
 
 # Archives
