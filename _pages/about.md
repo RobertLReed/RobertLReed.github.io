@@ -23,7 +23,7 @@ My current research focuses on how to use machine learning techniques to improve
 
 ## <a id="cv"></a>CV
 
-You can dowload a PDF copy of my CV [here](/assets/files/cv.pdf).
+You can dowload a PDF copy of my CV [here](/assets/files/CV Robert Reed 2025 Public.pdf).
 
 ---
 
